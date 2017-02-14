@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TopGroupView">
+        <attr name="RentitleText" format="string|reference" />
+        <attr name="RentitleSize" format="dimension|reference" />
+        <attr name="RentitleColor" format="color|reference" />
+
+        <attr name="RenleftBtn" format="reference"/>
+        <attr name="RenrightBtn" format="reference"/>
+
+    </declare-styleable>
+</resources>

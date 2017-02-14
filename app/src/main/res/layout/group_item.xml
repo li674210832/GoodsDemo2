@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/group_checkBox"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:focusable="false" />
+
+    <ImageView
+        android:id="@+id/imageView_group_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/group_checkBox"
+        android:src="@drawable/aph" />
+
+    <TextView
+        android:id="@+id/group_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/imageView_group_view"
+        android:layout_toRightOf="@id/imageView_group_view"
+        android:text="fefege" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/group_textView"
+        android:src="@drawable/a8r" />
+
+    <TextView
+        android:id="@+id/group_textView_compile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:text="编辑" />
+</RelativeLayout>
